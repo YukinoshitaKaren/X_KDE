@@ -1,5 +1,9 @@
-## Requirements
+# Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs (ACL 2025 Findings)
+We present the Cross-Lingual Knowledge Democracy Edit (**X-KDE**) framework, which facilitates knowledge editing across languages in large language models (LLMs). 
+By integrating Cross-lingual Edition Instruction Tuning (XE-IT) and Target-language Preference Optimization (TL-PO), X-KDE efficiently transfers knowledge from a source language to a target language while maintaining strong performance in monolingual settings. 
 
+
+## Requirements
 - Python 3.8+
 - CUDA 11.8+
 - See `requirements.txt` for detailed dependencies
@@ -17,6 +21,8 @@
 ```
 
 ## Training
+Please download the training data from [HuggingFace](https://huggingface.co/datasets/YukinoKaren/X_KDE_train_data).
+
 
 ### 1. Instruction Tuning (XE-IT)
 - Using LLaMA2 model:
