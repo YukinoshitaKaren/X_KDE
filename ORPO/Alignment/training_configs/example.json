@@ -1,0 +1,8 @@
+{
+    "info" : "Experiment Setting Notebook here",
+    "model_name_or_path" : "your_mode_path",
+    "dataset" : ["your_data_path"],
+    "beta" : 0.1,
+    "learning_rate" : 1e-6,
+    "gradient_accumulation_steps":16
+}
