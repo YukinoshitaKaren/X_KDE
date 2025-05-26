@@ -56,3 +56,14 @@ bash eval.sh
 - Ensure all dependencies are installed
 - Check GPU memory before training
 - DeepSpeed is recommended for distributed training
+
+## Citation
+If you find this work helpful, please consider citing as follows:
+```ruby
+@article{wu2025xkde,
+  title={Edit Once, Update Everywhere: A Simple Framework for Cross-Lingual Knowledge Synchronization in LLMs},
+  author={Wu, Yuchen and Ding, Liang and Shen, Li and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2502.14645},
+  year={2025}
+}
+```
