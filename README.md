@@ -21,7 +21,8 @@ By integrating Cross-lingual Edition Instruction Tuning (XE-IT) and Target-langu
 ```
 
 ## Training
-Please download the training data from [HuggingFace](https://huggingface.co/datasets/YukinoKaren/X_KDE_train_data). Moreover, we have also uploaded some ready-to-use demo models that you can download here: [HuggingFace](https://huggingface.co/YukinoKaren/X_KDE_Demo_EN_ZH), [HuggingFace](https://huggingface.co/YukinoKaren/X_KDE_Demo).
+Please download the training data from [HuggingFace](https://huggingface.co/datasets/YukinoKaren/X_KDE_train_data). 
+Moreover, two ready-to-use demo models have been made available for download: [X\_KDE\_Demo\_EN\_ZH](https://huggingface.co/YukinoKaren/X_KDE_Demo_EN_ZH), optimized for English → Chinese knowledge editing, and [X\_KDE\_Demo](https://huggingface.co/YukinoKaren/X_KDE_Demo), which achieves strong performance in both directions (EN → ZH and ZH → EN).
 
 
 ### 1. Instruction Tuning (XE-IT)
