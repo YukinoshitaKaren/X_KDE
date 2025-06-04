@@ -12,11 +12,11 @@ By integrating Cross-lingual Edition Instruction Tuning (XE-IT) and Target-langu
 
 ```
 .
-├── scripts/          # Training and evaluation scripts
+├── scripts/         # Training and evaluation scripts
 ├── data/            # Dataset directory
-├── LLaMA-Factory/   # Base training framework
-├── ORPO/           # ORPO optimization code
-├── eval/           # Evaluation code
+├── sft/             # Base training framework
+├── ORPO/            # ORPO optimization code
+├── eval/            # Evaluation code
 └── requirements.txt # Project dependencies
 ```
 
@@ -26,6 +26,11 @@ Moreover, two ready-to-use demo models have been made available for download: [X
 
 
 ### 1. Instruction Tuning (XE-IT)
+- Tokenizer training data
+  ```bash
+  bash tokenizer.sh
+  ```
+
 - Using LLaMA2 model:
   ```bash
   bash full_train_llama2.sh
