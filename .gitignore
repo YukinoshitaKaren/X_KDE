@@ -39,7 +39,6 @@ ENV/
 *.pth
 *.bin
 *.ckpt
-data/
 checkpoints/
 
 # System
